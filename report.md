@@ -100,6 +100,8 @@ if last_key:
   print "%s\t%s" % (last_key, count)
 ```
 
+We also tried a non-optimized version of the code (without "In-Mapper combining") and obtained a time difference of 3 minutes (10 minutes instead of 7 minutes) on the EMR step duration.
+
 #### Stats
 
 How often does the temperature 22 degrees celsius occur? **56'530 times**
